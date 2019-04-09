@@ -4,7 +4,11 @@
   "description": "Typescript + Vue + Bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "parcel serve app/index.html",
+    "watch": "parcel watch app/index.html",
+    "build": "parcel build app/index.html",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
